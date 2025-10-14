@@ -1,0 +1,1064 @@
+/* CSS Document */
+body {
+    font-size: .8em;
+    /*line-height: 125%;*/
+    font-family: arial, verdana, sans-serif;
+    color: #333;
+}
+
+.fieldset {
+    background-color: #eee;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*-------------Row Label Style---------------*/
+
+div.linkHeader {
+	padding: 0px 0 0px 8px;
+	text-align: left;
+	font-weight: bold;
+}
+
+div.helpLink {
+	padding: 0px 0 0px 8px;
+	text-align: left;
+}
+
+div.bodyText {
+	float: left;
+	padding: 4px 0 4px 0px;
+	text-align: left;
+	width:100%;
+}
+
+div.whiteBodyText {
+	float: left;
+	padding: 4px 0 4px 0px;
+	text-align: left;
+	width:100%;
+	background-color: white;
+}	
+
+div.row
+{
+    clear:both;
+    padding: 0px 0 0px 0;
+    display:block;
+}
+
+div.row span.labelheadingbold {
+    background-color: #ddd;
+    float: left;
+    font-weight: bold;
+    text-align: left;
+    padding: 4px 0 4px 8px;
+    width: 100%;
+    display:block;
+}
+.tHeading{
+    background-color: #ddd;
+	width: 100%;
+	display: block;
+	font-weight: bold;
+
+}
+
+div.row span.labelheadingbold label {
+    width: 100%;
+}
+
+div.row span.leftlabelregular,
+div.row span.label
+{
+    float: left;
+    font-weight: normal;
+    text-align: left;
+}
+
+div.row span.leftlabelregular
+{
+    padding: 4px 0 4px 8px;
+    width: 40%;
+}
+
+div.row span.label
+{
+    padding: 0px 0 0px 8px;
+}
+
+div.row span.hiddenLabel {
+    float: left;
+    font-weight: normal;
+    width: 40%;
+    padding: 4px 0 4px 8px;
+    visibility: hidden;
+}
+
+div.row span.labelheading {
+    float: left;
+    font-weight: normal;
+    text-align: left;
+    /*width: 100%;*/
+    padding: 2px 0 2px 8px;
+}
+
+div.row span.categoryHeading {
+    /*float: left;*/
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    padding: 2px 0 2px 8px;
+}
+
+div.row span.leftlabelregular label { /*padding-left:0;*/
+    padding: 0px 0 0px 0px ! important;
+    display: block;
+}
+
+div.textarea {
+	width:50%;
+	float:left;
+	padding: 0px 0 0px 8px;
+}
+
+div.textarea textarea {
+	width:96%;
+	height:200px;
+}
+div.row span.field {
+    float: left;
+    position: relative;
+    /*padding:2px 0 2px 8px;*/
+    padding: 0px 0 0px 8px;
+}
+
+div.row span.field label {
+    padding-left: 0px;
+}
+/* -------------------button Style----------------- */
+input.submit{
+	 border:1px double infobackground;
+	min-height: 25px;
+}
+input.submit:focus  {
+	border:3px double infobackground;
+}
+
+
+/* -------------------Row Input Style----------------- */
+div.row span.inputField {
+    width: 100%;
+    padding: 0px 0 0px 8px;
+}
+
+div.row span.inputField input {
+    border: 0px;
+}
+
+div.row span.fieldInput {
+    /*position: relative;*/
+    padding: 2px 0 2px 8px;
+    vertical-align: middle;
+}
+
+div.row span.catInput {
+    position: relative;
+    padding: 2px 0 2px 8px;
+    vertical-align: middle;
+}
+
+/* IE 6 Update - Required for input box percentage size values */
+* html div.row span.fieldInput {
+    position: absolute;
+    width: 95%;
+    padding: 2px 0 2px 8px;
+    vertical-align: middle;
+}
+
+* html div.row span.catInput {
+    position: absolute;
+    width: 95%;
+    padding: 2px 0 2px 8px;
+    vertical-align: middle;
+}
+
+div.row span.leftInput {
+    padding: 2px 0 2px 8px;
+    vertical-align: middle;
+}
+
+/* IE 6 Update - Required for input box percentage size values */
+* html div.row span.leftInput {
+    position: relative;
+    width: 95%;
+    padding: 2px 0 2px 8px;
+    vertical-align: middle;
+}
+
+div.row span.leftInput textarea
+{
+    padding: 2px 0 2px 8px;
+    vertical-align: top;
+    margin-left: 8px;
+}
+
+/* -----------------General Input Style----------------------- */
+
+
+select {
+    border: 1px solid #112f61;
+}
+
+textarea {
+    border: 1px solid #112f61;
+    font-size: 100%;
+    font-family: arial, verdana, sans-serif;
+    padding: 1px;
+}
+
+td input {
+    border: 0px;
+    padding: 1px;
+}
+
+input.data {
+    border: 0px;
+}
+
+input.data1 {
+    border: 0px;
+}
+
+div.row span.field input,
+div.row span.field select,
+div.row span.field textarea
+{
+    padding: 2px 0 2px 0px ! important;
+}
+
+div.row span.field input,
+div.row span.field select,
+td {
+  vertical-align: middle;
+}
+
+div.row table
+{
+    margin-left: 8px;
+}
+
+div.row table input {
+    border: 0px;
+}
+
+/* ----------------Button Style---------------*/
+
+/* Button alignment changed to correct the focus control - Accessibility Standard WCAG 2.2 AA  */
+div.buttonBar {
+	direction: ltr;
+}
+
+span.buttonBar {
+	float: right;
+}
+
+div.buttonBar {
+    padding: 4px 0 4px 8px ! important;
+}
+
+/* IE6 hack */
+* html div.buttonBar {
+    padding: 4px 0 4px 0px ! important;
+}
+
+div.buttonBar span {
+    padding: 4px 0 4px 0px ! important;
+}
+
+/* IE6 hack */
+* html div.buttonBar span {
+    padding: 4px 0 4px 8px ! important;
+}
+
+div.buttonBar span.buffer{ /*margin: 0 0 0 40%;*/
+    padding: 4px 0 4px 0px ! important;
+}
+
+div.buttonBar span.rightButtons{
+    padding: 4px 0 4px 8px;
+    position: relative;
+    float: right;
+}
+
+div.buttonBar span.fieldbuffer{ /*margin: 0 0 0 40%;*/
+    padding: 4px 0 4px 8px ! important;
+    margin-left: 40%;
+}
+
+div.fieldset span.buffer
+{ 
+    padding: 4px 0 4px 8px ! important;
+}
+
+.buttonBar {
+    clear: both;
+    background-color: #FFFFFF;
+}
+
+div.row span.buttonGroup {
+    left: 45%;
+    position: relative;
+}
+
+div.row span.buttons {
+    left: 40%;
+    position: relative;
+}
+
+div.row span.leftButtons {
+    padding: 4px 0 4px 8px;
+    position: relative;
+}
+
+div.row span.fieldButtons {
+    float: right;
+    position: relative;
+    width: 50%;
+}
+
+a.submit {
+	border: 0;
+	background: #10254e url(../images/butBg.gif) 0 0 repeat-x;
+	color: #fff;	
+	font-weight: bold;
+	padding: 3px 3px 2px 3px;
+	text-decoration:none;
+	}
+.btn {
+
+		border: 0px;
+	background: #10254e url(../images/butBg.gif) 0 0 repeat-x;
+	color: #fff;	
+	font-weight: bold;
+	padding: 3px;
+	margin:3px;
+	text-decoration:none;
+	font-weight: bold;	
+	font-size: 85%;
+
+
+	
+	
+	}	
+.submit {
+    /*width: 75px ! important; */
+    /*width: 66px ! important ;*/
+}
+
+.addAnother {
+    width: 135px ! important;
+    border: 0;
+    background: #10254e url(../images/butBg.gif) 0 0 repeat-x;
+    color: #fff;
+    font-weight: bold;
+    font-size: 85%;
+    padding: 3px 3px 2px 3px;
+    /*width: 66px ! important ;*/
+}
+	
+div.inputRow span.image
+{
+	float: left;
+	font-weight: normal;
+	text-align: left;
+	color:red;
+	width:3%;
+	min-width:3%;
+	max-width:3%;
+}
+
+span.imageBelow
+{
+	float: left;
+	font-weight: normal;
+	text-align: left;
+	color:red;
+	width:3%;
+	min-width:3%;
+	max-width:3%;
+	padding:0px 0px 0px 10px;
+}
+
+div.inputRow span.imageMenuBelow
+{
+	color:red;
+	width:50%;
+}
+
+div.inputRow span.leftField {
+	padding: 4px 0 4px 8px;
+}
+
+div.inputRow span.field input.textdata {
+	border: 1px solid black;
+	/*background: #e8ebf0;*/
+	background: #FFFFFF;
+}
+
+div.inputRow {
+	text-align: left;
+}
+
+div.inputRow span.field {
+	padding: 2px 0 2px 0px ! important;
+	vertical-align: middle;
+}
+
+div.inputRow span.leftlabelregular {
+	float: left;
+	font-weight: normal;
+	text-align: left;
+	width: 40%;
+	padding: 4px 0 4px 8px;
+	vertical-align: middle;
+}
+
+div.inputRow span.label {
+	float: left;
+	font-weight: normal;
+	text-align: left;
+	width: 100%;
+	padding: 4px 0 4px 8px;
+	vertical-align: middle;
+}
+
+div.inputRow span.fieldbelowlabel {
+	padding: 4px 0 4px 8px ! important;
+	vertical-align: middle;
+}
+
+
+
+/* ----------------Spacing Style---------------*/
+
+span.spacer {
+    padding-left: 3px;
+}
+
+.fieldbuffer {
+    margin-left: 40%;
+    padding-left: 5px ! important;
+}
+
+.clr {
+    clear: both;
+    height: 0.1px;
+    font-size: 0;
+    line-height: 0;
+}
+.clr2 {
+ background-color: #fff;
+ height: 150%;
+ display: block;
+   
+}
+hr {
+    display: none;
+}
+
+div.row span.link {
+    /*float: left;*/
+    text-align: left;
+    padding: 2px 4px 2px 8px;
+    /*font-style:italic;*/
+    font-style: normal;
+    display:block;
+}
+
+div.row span.link a {
+    font-style: normal;
+}
+
+/*span.link {
+    padding: 2px 0px 2px 8px;
+}*/
+
+/* -----------------Text Style----------------*/
+
+#centralContent p {
+    margin: 8px;
+    padding: 0px;
+}
+
+#centralContent h1 {
+    color: #112f61;
+    /*margin: 5px 0px 3px 10px;*/
+    padding: 0;
+    font-size: 125%;
+    padding: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#centralContent h2.pageTitle {
+    color: #112f61;
+    /*margin: 5px 0px 3px 10px;*/
+    padding: 0;
+    font-size: 125%;
+    padding: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#centralContent h2 {
+    color: #112f61;
+    margin: 0 0 0 10px;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+#centralContent h3 {
+    color: #112f61;
+    margin: 0 0 0 10px;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+#centralContent h4 {
+    /*color: black;
+    margin: 5px 0px 5px 10px;
+    padding: 0px;
+    font-size: 1em;*/
+    color: #112f61;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#centralContent h5 {
+    color: black;
+    margin: 0 0 0 10px;
+    padding: 0;
+    font-size: 0.9em;
+}
+
+#centralContent a.h4 
+{
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    padding: 0px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
+}
+
+#centralContent a.h4:hover
+{
+    text-decoration: underline;
+}
+
+#centralContent a.h4:link,
+#centralContent a.h4:active,
+#centralContent a.h4:visited
+{
+    color:#620070;
+}
+
+#centralContent ul,
+#centralContent div ul 
+{
+    margin: 0px;
+    padding-left: 24px;
+    position: relative;
+}
+
+#centralContent ul li,
+#centralContent div ul li
+{
+    list-style: square outside;
+    vertical-align:middle;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    position: relative;
+}
+
+#centralContent fieldset ul 
+{
+    padding-left: 30px;
+    position: relative;
+}
+
+#centralContent fieldset ul li
+{
+    list-style-type:square;
+    vertical-align:middle;
+    position: relative;
+}
+
+.em {
+    font-weight: bold;
+}
+
+.errorList {
+    color: #d90000;
+}
+
+.err {
+	color: #d90000;
+}
+
+.question {
+    background-color: #ddd;
+    float: left;
+    font-weight: bold;
+    text-align: left;
+    padding: 4px 0px 4px 0px;
+    width: 100% ! important;
+}
+
+.questionText {
+    background-color: #ddd;
+    float: left;
+    font-weight: bold;
+    text-align: left;
+    padding: 0px 0px 0px 8px;
+}
+
+div.errorRow {
+	text-align: left;
+	border: none;
+	padding: 0 0 0 8px;
+}
+
+div.whiteErrorRow {
+	text-align: left;
+	background-color: white;
+	border: none;
+	padding: 0 0 0 8px;
+}
+
+div.buttonList {
+	text-align: left;
+	background-color: white;
+	border: none;
+	padding: 0 0 0 8px;
+}
+
+.tabularData {
+    border: medium none;
+    margin-left: 0px;
+}
+.tabularData td {
+    border: medium none;
+    border-collapse: collapse;
+    font-size: 1.0em;
+    font-weight: bold;
+    /*margin: 5px;*/
+    padding: 4px 8px 4px 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+
+ul.bullets {
+    padding: 4px 0px 4px 8px;
+}
+
+/*-------------------Central Content Input Style--------------*/
+
+#centralContent input.s8,#centralContent select.s8 {
+    width: 15% ! important;
+}
+
+#centralContent input.s16,#centralContent select.s16 {
+    width: 20% ! important;
+}
+
+#centralContent input.s24,#centralContent select.s24 {
+    width: 25% ! important;
+}
+
+#centralContent input.s32,#centralContent select.s32 {
+    width: 30% ! important;
+}
+
+#centralContent input.s40,#centralContent select.s40 {
+    width: 35% ! important;
+}
+
+#centralContent input.s48,#centralContent select.s48 {
+    width: 40% ! important;
+}
+
+#centralContent input.s56,#centralContent select.s56 {
+    width: 45% ! important;
+}
+
+#centralContent input.s64,#centralContent select.s64 {
+    width: 50% ! important;
+}
+
+#centralContent input.s70,#centralContent select.s70 {
+    width: 55% ! important;
+}
+
+#centralContent input.s80,#centralContent select.s80 {
+    width: 80% ! important;
+}
+
+#centralContent input.s99,#centralContent select.s99 {
+    width: 99% ! important;
+}
+/*----------------------------Table Style------------------*/
+
+div.scroll_table {
+	padding: 2px 8px 2px 8px;
+	text-align: left;
+	width:100%;
+	max-width:97%;
+	overflow-x:scroll;
+}
+
+.cosDetailsTableCol1 {
+	width: 15%;	
+}
+
+.restrictedCoSButtonCol {
+	width: 5%;	
+}
+
+.cosDetailsTableColNoStyle {
+	/* This style is used to provide no style to the other columns in the table */
+}
+
+div.table {
+	padding: 2px 8px 2px 8px;
+	text-align: left;
+	width:100%;
+	max-width:97%;
+}
+
+table.data, table.data td {
+    border: 0px;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0px;
+    background-color: #eee;
+}
+
+table.data1, table.data1 tr, table.data1 td {
+    border: 0px;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0px;
+    background-color: #eee;
+}
+
+table.data td input,
+table.data input
+{
+    border:0px;
+    background-color:#eee;
+}
+table.data1 td input,
+table.data1 input
+{
+    border:0px;
+    background-color:#eee;
+}
+
+#methodContactTable td {
+  word-wrap: break-word;
+}
+
+/*----------------------------dataTable Styles------------------*/
+
+.dataTable {
+    table-layout: fixed;
+}
+
+.wordWrapCol {
+    word-wrap: break-word;
+}
+
+.rowOverflow {
+	overflow: auto;
+}
+
+/*---------------Submission Sheet Styles-----------*/
+
+#centralContent .printOnly {
+    display: none;
+}
+
+table.fmt {
+    border: none !important;
+    margin: 5px;
+    padding: 5px;
+}
+
+table.fmt2 {
+    border: none !important;
+    margin: 0;
+    padding: 0;
+}
+
+table.fmt td,table.fmt2 td {
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+table.fmt td.fmtLabel {
+    width: 10em;
+}
+
+.digit {
+    border: solid 1px #333 !important;
+    font-weight: normal;
+    vertical-align: top;
+    width: 0.65em !important;
+}
+
+#centralContent .sig {
+    border-bottom: dotted 1px black !important;
+    height: 25px;
+    width: 20em;
+}
+
+#centralContent .sigDate {
+    border-bottom: dotted 1px black !important;
+    height: 25px;
+    width: 10em;
+}
+
+#centralContent .printBanner {
+    background-color: Black !important;
+}
+
+#centralContent .printBanner h1 {
+    color: White !important;
+    font-size: 120%;
+    padding: 10px;
+}
+
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+
+.indent {
+    text-align: left;
+    display: block;
+    text-indent: -999em !important;
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+    margin: 0
+}
+
+#centralContent div.frame
+{
+    border:solid 1px #333;
+    display:block;
+    margin-bottom:5px;
+    width: 100%;
+}
+
+#centralContent div.frame h4
+{
+    text-decoration: none;
+}
+
+#centralContent div.frame #docList td
+{
+    padding-right: 1em;
+}
+
+#centralContent .minRight
+{
+    width:auto ! important;
+    float:right;
+}
+
+#centralContent .appDetails .printBanner h1
+{
+    padding-left: 0px;
+    text-align: center;
+}
+
+#centralContent.appDetails, 
+#centralContent .payDetails
+{
+    width: 100%;
+}
+
+table.info 
+{
+    border-collapse: collapse;
+    border: none;
+    margin: 0px;
+    padding: 4px 0 4px 8px;
+}
+
+table.info td 
+{
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 4px 0 4px 8px;
+    border: none;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.hiddenText
+{
+    visibility: hidden;
+}
+
+#centralContent ol,
+#centralContent div ol 
+{
+    text-align: left;
+    padding-left: 28px;
+    padding-left: 32px;
+    padding-top: 10px;
+}
+
+#centralContent ol li,
+#centralContent div ol li
+{
+    /*vertical-align:middle;*/
+    /*padding-top: 8px;*/
+    padding-bottom: 10px;
+}
+
+#centralContent ol li ol,
+#centralContent div ol li ol 
+{
+    padding-left: 20px;
+    padding-left: 24px;
+}
+
+#centralContent ol li ol li,
+#centralContent div ol li ol li
+{
+    /*vertical-align:middle;*/
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+#centralContent ol,
+#centralContent div ol
+{
+    list-style: lower-alpha outside;
+}
+
+#centralContent ol li ol,
+#centralContent div ol li ol
+{
+    list-style: lower-roman outside;
+}
+
+#centralContent ol.roman,
+#centralContent div ol.roman
+{
+    list-style: lower-roman outside ! important;
+}
+
+div.fieldsetSpacer {
+    clear: both;
+    margin: 0px;
+    background-color:  #eee ! important;
+    /*padding:2px 0 2px 0 ! important;*/
+    padding:0px 0 0px 0 ! important;
+    height: 4px ! important;
+}
+
+div.spacer {
+    clear: both;
+    margin: 0px;
+    background-color: #ffffff ! important;
+    /*padding:2px 0 2px 0 ! important;*/
+    padding:0px 0 0px 0 ! important;
+    height: 4px ! important;
+}
+
+div.bigspacer {
+    clear: both;
+    margin: 0px;
+    background-color: #ffffff ! important;
+    padding:20px 0 0px 0 ! important;
+    height: 4px ! important;
+}
+
+* html div.spacer {
+    clear: both;
+    margin: 0px;
+    background-color: #ffffff ! important;
+    padding:0px 0 0px 0 ! important;
+    height: 0.1px; 
+    font-size: 0; 
+    line-height: 0; 
+}
+
+* html div.fieldsetSpacer {
+    clear: both;
+    margin: 0px;
+    background-color: #eee ! important;
+    padding:0px 0 0px 0 ! important;
+    height: 0.1px; 
+    font-size: 0; 
+    line-height: 0; 
+}
+
+td.checkbox img{
+	border:solid 1px black;
+	height:1.5em;
+	width:1.5em;
+}
+
+input.submitnoaction {
+	border:1px double infobackground;
+	min-height: 25px;
+	background: #10254e url(../images/butBg.gif) 0 0 repeat-x;
+	color: grey;	
+	font-weight: bold;	
+	font-size: 85%;
+	padding: 3px 3px 2px 3px;
+}
+
+div.inputRow span.noborder input {
+	border: 0px;
+}
+
+ul.general {
+	padding: 0 0 0px 0;
+	list-style-type: square;
+	line-height: 1.1em;	
+	}
+
+.signpostingFrame {
+    border: solid 2px red;
+    padding: 10px;
+    margin: 20px 10px;
+}
+
+.signpostingHeader {
+    margin-top: 0px;
+}
+
+.formSignposting {
+    margin: 10px 10px;
+    clear: both;
+}
+
+.question:has(+ .signpostingFrame) {
+    margin-bottom: 10px;
+}

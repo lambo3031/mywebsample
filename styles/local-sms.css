@@ -1,0 +1,47 @@
+#main_nav li span {
+    padding: 10px 0 5px 15px;
+    margin: 2px;
+    display: block;
+}
+
+#leftNav ul#selected
+{                   
+    display: block;            
+    margin-bottom: 2px;
+    margin-top: 2px;
+    clear: both;
+}
+
+#leftNav ul li#section
+{                   
+    display: block;     
+    text-decoration: none;
+    padding: 3px 0px 3px 32px;
+}
+
+#leftNav ul li#sectionSelected
+{                   
+    display: block;       
+    text-decoration: none;
+    padding: 3px 0 3px 32px;
+    font-weight: bold;
+}
+
+div.row span.field table,
+table.data1 td {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0px;
+    border: none ! important;
+    background-color: transparent;
+}
+
+div.row span.field table.data1 td,
+table.data1 td.radio {
+    margin: 0px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    font-size: .75em;
+    background-color: transparent;
+}

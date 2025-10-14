@@ -1,0 +1,61 @@
+/* BIA CORE STYLES */
+
+
+
+
+
+
+body {
+	text-align: center;				
+	background:  #fff;
+	overflow-x: clip;
+	}
+#centering {
+	text-align: left;
+	margin: auto;
+	max-width: 68%;
+	min-width: 40.4%;
+	}
+	
+	
+
+	
+	
+#centeringInner { position: relative; }
+
+
+
+#top {
+	text-align: left;
+	}	
+#breadcrumb {
+	text-align: left;
+	}		
+			
+#wrapper {
+	text-align: left;
+	min-width: 40.4%;
+	}
+
+	#wrapper #leftNav {
+		float: left;
+		width: 24%;
+		word-wrap: break-word;
+		}	
+	#wrapper #rightContent {
+		float: left;
+		width: 75%;
+		}
+		#wrapper #rightContent .inner {
+			padding: 0 0 0 15px;
+			}
+		#centralContent {
+			float: left;
+			width: 66%;
+			padding-top: 15px;
+			}
+		#wrapper #rightContent #rightCol {
+			float: left;
+			width: 33%;
+			padding-top: 10px;
+			}	

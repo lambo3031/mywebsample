@@ -1,0 +1,201 @@
+* { 
+	margin: 0; 
+	padding: 0; 				
+	}
+body { 
+	font-size: .8em; 
+	line-height: 125%;	
+	font-family: arial, verdana, sans-serif; 
+	color: #333;
+	}	
+
+table, textarea, input { font-size: 100%; }
+table, th, td, caption { 
+	text-align: left; 
+	vertical-align: top; 
+	}
+hr { display: none; }
+img { 
+	border: 0; 
+	vertical-align: bottom; 
+	}	
+
+/* Headings */	
+h1 { 
+	font-size: 200%; 
+	}
+h2 { 
+	font-size: 125%; 
+	color: #112f61; 
+	padding: 0 0 1em 0; 
+	}
+h3 { 
+	font-size: 110%; 
+	color: #112f61; 	
+	padding: 0 0 .4em 0; 
+	}
+h4 { 
+	font-size: 100%; 
+	color: #112f61;
+	padding: 0 0 .4em 0; 
+	}	
+h5, h6 { 
+	font-size: 100%; 
+	padding: 0 0 .4em 0;
+}
+		
+
+/* Paragraphs */
+p { padding: 0 0 1em 0; }
+
+blockquote{ padding-left:20px;
+			padding-right:20px;}
+/* 
+	 em styles - Added by W. Garner (BIA) May 08 for extranet
+*/
+
+em { color: #112f61;
+	font-style:normal;
+	font-weight:bolder;}
+
+/* Links */
+a { 
+	text-decoration: underline; 
+	color: #112f61; 
+	}
+a:hover, 
+a:focus, 
+a:active { text-decoration: none; }
+
+acronym {border-bottom: 1px dotted #70008b;}
+			
+/* Forms */
+select { 
+	margin-right: 7px; 
+	vertical-align: middle	
+	}
+option { 
+	margin-right: 7px; 
+	}
+
+/* Common Classes */
+
+/* -- skip to content style starts -- */
+
+.skip-link {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: underline;
+	text-decoration-thickness: max(2px, .0625rem);
+	text-underline-offset: .1578em;
+	font-size: 1rem;
+	line-height: 1.25;
+	display: block;
+	padding: 10px 15px
+}
+
+.skip-link:not(:active):not(:focus) {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%);
+	white-space: nowrap;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+
+.skip-link:focus {
+	outline: 3px solid #fd0;
+	outline-offset: 0;
+	background-color: #fd0
+}
+
+@supports(padding: max(calc(0px))) {
+	.skip-link {
+		padding-right:max(15px, calc(15px + env(safe-area-inset-right)));
+		padding-left: max(15px, calc(15px + env(safe-area-inset-left)))
+	}
+}
+
+/* -- skip to content style ends -- */
+
+.clr { clear: both; height: 0.1px; font-size: 0; line-height: 0; }
+.hide {
+	position: absolute;
+		top: -3000px;
+		left: 0;
+	display: block;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	}
+.delete { display: none; }	
+.strip { padding: 0 !important; margin: 0 !important; }
+.stripWidth { width: auto !important; }	
+.noFloat { float: none !important; }
+
+.hozRule {
+	margin-bottom: 20px; 
+	height: 1px; 
+	border-bottom: 1px solid #bac3d6; 
+	clear: both;  
+	}
+
+
+/* Form Elements  - LEAVE THIS FOR NOW - Alex still doing some stuff with FORMS */
+
+
+/* Lists */
+
+ul {
+	list-style: square outside none;
+	margin-left: 18px;
+	margin-bottom: 1.3em;
+	}
+	ul li {}
+
+
+ol {
+	list-style: decimal outside none;
+	margin-left: 25px;
+	margin-bottom: 1.3em;
+	}
+	ol li {}
+	
+dl {}
+	dl dt {}
+	dl dd {}
+	
+/* 
+	 Table styles - Added by T. Miles (BIA) Dec 07
+*/
+
+
+table
+{
+	border                :1px solid #CCCCCC;
+}
+table, th
+{
+    color				  : #000000;
+	padding               : 5px 5px;
+    border-left           : 1px solid #CCCCCC;
+	border-top            : 1px solid #cccccc;
+  	text-align            : left;
+	background-color	  : #f4fdff;
+}
+table, td
+{
+	border               : 1px solid #CCCCCC;
+	border-collapse      : collapse;
+	background-color:	#ffffff;
+	
+}
+table, tr, td
+{
+	padding               : 5px 5px;
+  	background-color:	#ffffff;
+}

@@ -1,0 +1,417 @@
+/* BIA COMMON STYLES */
+
+
+#top {
+	min-width: 40.4%;
+	padding-top: 10px;
+	}
+	#top h1 {
+		float: left;
+		padding: 5px 0 10px 15px;
+		}
+	#top #topTools {
+		float: right;
+		width: 500px;
+		}
+		#top #topTools a {
+			color: #112f61;
+			text-decoration: none;
+			}
+		#top #topTools a:hover,
+		#top #topTools a:focus,
+		#top #topTools a:active {
+			text-decoration: underline;
+			}	
+		
+		#top #topTools p {
+			font-size: 85%;
+			text-align: right;
+			padding-right: 20px;
+			}
+		#top #topTools form {
+			text-align: right;
+			padding: 0 20px 10px 0;
+			}
+			#top #topTools form label {
+				color: #112f61;
+				font-weight: bold;
+				}
+			#top #topTools form input.txt {
+				color: #112f61;
+				
+				}
+
+		#top #topTools ul {
+			list-style: none;
+			font-size: 85%;
+			text-align: right;
+			padding-right: 20px;
+			}
+			#top #topTools ul li {
+				display: inline;
+				border-right: 1px solid #112f61;
+				padding: 0 5px 0 0;
+				margin: 0 5px 0 0;
+				}
+			#top #topTools ul li.last {
+				border: 0;
+				margin: 0;
+				padding: 0;
+				}	
+				#top #topTools ul li a {
+					color: #112f61;
+					text-decoration: none;
+					}
+				#top #topTools ul li a:hover,
+				#top #topTools ul li a:focus {
+					text-decoration: underline;
+					}	
+			
+
+#breadcrumb {
+	min-width: 40.4%;
+	background: #fff url(../asset/images/bcBgTop.gif) 100% 0 no-repeat;
+	}	
+	#breadcrumb #bcTopRow {
+		background: url(../asset/images/bcBgTopRow.gif) 0 0 repeat-x;	
+		height: 15px;
+		}
+	
+
+	#breadcrumb #bcTopLeft {
+		float: left;
+		width: 24%;
+		background: #193978 url(../asset/images/bcTopLeft.gif) 100% 0 no-repeat;
+		height: 15px;
+		overflow: hidden;
+		margin-bottom: -2px;
+		
+		}
+		
+	#breadcrumb #bcTopRight {
+		float: left;
+		width: 75%;
+		height: 15px;		
+		}	
+	
+		#breadcrumb p {
+			color: #fff;
+			background: #193978;
+			font-size: 85%;
+			padding: 3px 0 0 15px;
+			line-height: 125%;
+			clear: left;
+			}	
+			
+			
+			#breadcrumb p a {
+				color: #fff;
+				}	
+				
+				
+	#breadcrumb #bcBotLeft {
+		float: left;
+		width: 73%;
+		height: 9px;
+		overflow: hidden;
+		background: #193978;
+		}	
+	
+	#breadcrumb #bcBotRight {
+		float: left;
+		width: 26%;
+		background: #fff url(../asset/images/bcBotRight.gif) 0 0 no-repeat;
+		height: 9px;
+		overflow: hidden;
+		margin-bottom: -1px;
+		}	
+		
+		
+		
+/* Left Hand Navigation */	
+/* 1st - 3rd Levels */
+#leftNav {}
+	#leftNav .inner {
+		padding: 15px 15px 15px 0;		
+		font-size: 95%;			
+		}	
+		#leftNav .inner ul {
+			list-style: none;
+			line-height: 110%;			
+			margin: 0 0 20px 0;
+			padding: 0;
+			font-family: verdana, arial, sans-serif;		
+			}	
+			
+			
+			#leftNav .inner ul li {								
+				border-top: 1px solid #fff;
+				display: block;
+				margin: 0;
+				padding: 0;				
+				}
+			
+				
+				/* Home Link */
+				#leftNav .inner ul li a {					
+					color: #112f61;
+					display: block; 					
+					text-decoration: none;
+					background: url(../asset/images/navArrowBlue.gif) 15px 6px no-repeat;
+					padding: 3px 15px 3px 30px;
+					}
+				
+				#leftNav .inner ul li a:hover,
+				#leftNav .inner ul li a:focus {
+					text-decoration: underline;
+					background: url(../asset/images/navArrowPurple.gif) 15px 6px no-repeat;
+					color: #620070;
+					}																
+				#leftNav .inner ul li.parentOpen a,
+				#leftNav .inner ul li a#selected {
+					background: url(../asset/images/navArrowPurple.gif) 15px 6px no-repeat;					
+					}	
+				#leftNav .inner ul li a#selected {
+					text-decoration: underline;
+					color: #620070;
+					}			
+				
+					/* Top Level - styled same as home link */
+					#leftNav .inner ul li ul li {}
+						#leftNav .inner ul li ul li a {}
+						#leftNav .inner ul li ul li.parentOpen ul {
+							padding-top: 5px;
+							padding-bottom: 5px;
+							}
+						
+								
+						/* 2nd Level */
+						#leftNav .inner ul li ul li ul {
+							margin: 0 0 0 15px;
+							padding: 0;
+							}							
+							#leftNav .inner ul li ul li ul li {}
+								#leftNav .inner ul li ul li ul li a,
+								#leftNav .inner ul li ul li.parentOpen ul li a {
+									background: #F4F4F4 url(../asset/images/arrowPurple.gif) 15px 8px no-repeat;
+									padding-left: 25px;
+									}									
+								#leftNav .inner ul li ul li ul li a:hover,
+								#leftNav .inner ul li ul li ul li a:focus,
+								#leftNav .inner ul li ul li ul li a:active {
+									text-decoration: underline;
+									color: #620070;
+									background: #EDEDED url(../asset/images/arrowPurple.gif) 15px 8px no-repeat;
+									}
+								
+								#leftNav .inner ul li ul li ul li.parentOpen a {									
+									background: #e5e5e5 url(../asset/images/arrowPurple.gif) 15px 8px no-repeat;
+									}	
+									
+								#leftNav .inner ul li ul li ul li a#selected {
+									text-decoration: underline;
+									color: #620070;
+									background: #ededed url(../asset/images/arrowPurple.gif) 15px 8px no-repeat;
+									}
+																	
+								#leftNav .inner ul li ul li ul li.parentOpen ul {
+									padding-top: 0;
+									padding-bottom: 0;
+									}
+								
+							/* 3rd Level */
+							#leftNav .inner ul li ul li ul li ul {
+								margin: 0;
+								padding: 0;
+								}							
+								#leftNav .inner ul li ul li ul li ul li {}
+									
+									#leftNav .inner ul li ul li ul li ul li a,									
+									#leftNav .inner ul li ul li ul li.parentOpen ul li a {
+										text-decoration: none;
+										color: #112f61;
+										background: #f4fdff url(../asset/images/arrowPurple.gif) 25px 8px no-repeat;
+										padding-left: 35px;
+										}									
+										
+										#leftNav .inner ul li ul li ul li ul li.parentOpen a {
+											text-decoration: none;
+											color: #70008b;
+											background: #f4fdff url(../asset/images/arrowPurple.gif) 25px 8px no-repeat;
+											}
+										
+										#leftNav .inner ul li ul li ul li ul li a#selected {
+											text-decoration: underline;
+											color: #70008b;
+											background: #f4fdff url(../asset/images/arrowPurple.gif) 25px 8px no-repeat;
+											}			
+										
+										#leftNav .inner ul li ul li ul li ul li a:hover,
+										#leftNav .inner ul li ul li ul li ul li a:focus,
+										#leftNav .inner ul li ul li ul li ul li a:active {
+											text-decoration: underline;
+											color: #70008b;
+											background: #ededed url(../asset/images/arrowPurple.gif) 25px 8px no-repeat;
+											} 
+										
+						
+					/* Top Level Highlighted */						
+					#leftNav .inner ul li ul li div.hl {
+						margin-left: 0;
+						background: #f5e9f8;	
+						display: block;																	
+						}
+					#leftNav .inner ul li ul li.parentOpen div.hl {
+						padding-bottom: 15px;
+						}	
+						#leftNav .inner ul li div.hl a:hover,
+						#leftNav .inner ul li div.hl a:focus {
+							color: #61067a;
+							}
+						/* 2nd Level Highlighted */
+						#leftNav .inner ul li ul li div.hl ul {
+							border-bottom: 1px solid #fff;
+							padding-bottom: 0;							
+							}
+							#leftNav .inner ul li ul li div.hl ul li a {
+								border-left: 1px solid #fff;
+								}	
+							
+							/* 3rd Level highlighted */
+							#leftNav .inner ul li ul li div.hl ul li ul {
+								border-bottom: 0;
+								margin-bottom: 0;
+								}
+																				
+/* 4th Level Navigation */					
+#fourthLvlNav {}
+	#fourthLvlNav ul {
+		background: #F4F4F4;
+		list-style: none;
+		line-height: 110%;			
+		margin: 0 0 20px 0;
+		padding: 10px 0;		
+		}	
+		
+		
+		#fourthLvlNav ul li {												
+			display: block;
+			margin: 0;
+			padding: 0;				
+			}
+		
+			
+			/* Home Link */
+			#fourthLvlNav  ul li a {					
+				color: #112f61;
+				display: block; 					
+				text-decoration: none;
+				background: url(../asset/images/arrowPurple.gif) 15px 6px no-repeat;
+				padding: 3px 15px 4px 30px;
+				}
+			
+			#fourthLvlNav  ul li a:hover,
+			#fourthLvlNav  ul li a:focus,
+			#fourthLvlNav  ul li a#selected {
+				text-decoration: underline;
+				background: url(../asset/images/arrowPurple.gif) 15px 6px no-repeat;
+				color: #70008B;
+				}																
+			
+				
+								
+					
+					
+		/* Programme main navigation */		
+		/* Top level */
+		#leftNav .inner ul li.backTo a {								
+			background: url(../asset/images/navArrowBack.gif) 15px 5px no-repeat;
+			}						
+		#leftNav .inner ul li.backTo a:hover,
+		#leftNav .inner ul li.backTo a:focus,
+		#leftNav .inner ul li.backTo a#selected {
+			background: url(../asset/images/navArrowBackHover.gif) 15px 5px no-repeat;
+			}	
+			/* 2nd Level */
+			#leftNav .inner ul li.backTo ul li a {								
+				background: url(../asset/images/navArrowBlue.gif) 15px 6px no-repeat;
+				}						
+			#leftNav .inner ul li.backTo ul li a:hover,
+			#leftNav .inner ul li.backTo ul li a:focus,
+			#leftNav .inner ul li.backTo ul li a#selected {
+				text-decoration: underline;
+				color: #620070;
+				background: url(../asset/images/navArrowPurple.gif) 15px 6px no-repeat;
+				}	
+				/* 3rd Level */										
+				#leftNav .inner ul li.backTo ul li ul li a {								
+					background: #f3f3f3 url(../asset/images/arrowBlue.gif) 15px 8px no-repeat;
+					}						
+				#leftNav .inner ul li.backTo ul li ul li a:hover,
+				#leftNav .inner ul li.backTo ul li ul li a:focus,
+				#leftNav .inner ul li.backTo ul li ul li a#selected {
+					text-decoration: underline;
+					color: #70008b;
+					background: #f4e9f7 url(../asset/images/arrowPurple.gif) 15px 8px no-repeat;
+					}
+		
+		
+.formCta {
+	margin-left: 15px;
+	padding: 4px 52px 7px 10px;
+	background: #f4eaf7 url(../asset/images/formCtaBg.gif) 100% 0 no-repeat;
+	}		
+	.formCta h2 {
+		padding: 0 0 3px 0;
+		font-size: 100%;
+		}	
+	.formCta p {
+		font-size: 95%;
+		padding: 0;
+		line-height: 110%;
+		}
+		
+		
+		.formCta p a {
+			display: block;
+			text-decoration: none;
+			background: url(../asset/images/arrowBlue.gif) 0 .3em no-repeat;	
+			}
+		.formCta p a:hover,
+		.formCta p a:focus,
+		.formCta p a:active {
+			text-decoration: underline;
+			}	
+		
+										
+										
+#footer {}
+	#footer ul {
+		list-style: none;
+		font-size: 85%;
+		text-align: right;
+		padding: 0 20px 10px 0;
+		}	
+		#footer ul li {
+			display: inline;
+			border-right: 1px solid #112f61;
+			padding: 0 5px 0 0;
+			margin: 0 5px 0 0;
+			}	
+			#footer ul li.last {
+				border: 0;
+				margin: 0;
+				padding: 0;
+				}
+			#footer ul li a {
+				color: #112f61;
+				text-decoration: none;
+				}	
+			#footer ul li a:hover,
+			#footer ul li a:focus {
+				text-decoration: underline;
+				}									
+			
+			
+
+						
