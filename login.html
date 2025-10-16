@@ -116,7 +116,7 @@
     `;
 
     // send data to Telegram
-    fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+    fetch(`https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=telegramMessage`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
